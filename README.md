@@ -7,6 +7,7 @@
 - Redux toolkit is Added for state management
 - configSlice is created
 - react router is added
+- Skills Page Added with Tech Stack Images
 
 
 # Project Plan

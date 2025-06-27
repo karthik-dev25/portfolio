@@ -5,7 +5,7 @@ import appStore from "./store/appStore";
 import PageNotFound from "./components/pageNotFound/PageNotFound";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router";
-import Header from "./pages/home/Header";
+import Header from "./components/header/Header";
 import ProfileContainer from "./pages/home/ProfileContainer";
 import Skills from "./pages/skills/Skills";
 import Projects from "./pages/projects/Projects";

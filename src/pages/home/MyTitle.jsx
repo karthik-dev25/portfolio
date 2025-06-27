@@ -1,23 +1,44 @@
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import {
+  GITHUB_LINK,
+  LEETCODE_LINK,
+  LINKEDIN_LINK,
+} from "../../utility/constants";
 
 const MyTitle = () => {
   return (
-    <div className="flex flex-col justify-center">
+    <div className="w-1/2 h-96 flex flex-col justify-center mt-20">
       <h2 className="text-4xl my-2 font-bold">Hi, I am Karthik</h2>
-      <p className="text-2xl font-semibold">Software Engineer</p>
-      <p>Full Stack Developer </p>
-      <div className="my-2">
-        <h1 className="my-2 text-lg font-semibold">Connect With Me</h1>
+      <p className="text-2xl my-2 font-semibold">Software Engineer</p>
+      <p className="w-11/12 my-2">
+        Experienced Full Stack Developer with 3.5 years of expertise in
+        cloud-based web application design, development, and maintenance.
+        Proficient in React, JavaScript, and TypeScript, with hands-on
+        experience in Node.js for API development, with a passion for continuous
+        learning and driving innovation in fast-paced environments.
+      </p>
+      <div className="w-1/2">
+        <h1 className="my-4 text-lg font-semibold">Connect With Me</h1>
         <ul className="flex justify-between">
-          <li>Linkedin</li>
-          <li>Github</li>
-          <li>LeetCode</li>
+          <li className="bg-blue-950 p-4 rounded-lg cursor-pointer hover:bg-gradient-to-b from-blue-500">
+            <a href={LINKEDIN_LINK} target="_new">
+              <FaLinkedin fill="white" />
+            </a>
+          </li>
+          <li className="bg-blue-950 p-4 rounded-lg cursor-pointer hover:bg-gradient-to-b from-blue-500">
+            <a href={GITHUB_LINK} target="_new">
+              <FaGithubSquare fill="white" />
+            </a>
+          </li>
+          <li className="bg-blue-950 p-4 rounded-lg cursor-pointer hover:bg-gradient-to-b from-blue-500">
+            <a href={LEETCODE_LINK} target="_new">
+              <SiLeetcode fill="white" />
+            </a>
+          </li>
         </ul>
-      </div>
-      <p className="text-xl font-semibold my-2" >Or</p>
-      <div>
-        <p className="text-xl font-semibold">karthirk0388@gmail.com</p>
-        <p className="text-xl font-semibold">7702917785</p>
       </div>
     </div>
   );
