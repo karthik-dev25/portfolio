@@ -5,7 +5,7 @@ import { backendDevelopment, cloudAndDeployment, frontEndDevelopment, libraryAnd
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col items-center absolute mt-20">
+    <div className="w-full flex flex-col items-center mt-20">
       <h1 className="text-2xl font-bold border-4 border-black py-1 px-10">
         SKILLS
       </h1>

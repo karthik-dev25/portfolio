@@ -69,46 +69,88 @@ export const backendDevelopment = [
 
 export const libraryAndDevTools = [
   {
-    name:"VS-Code",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg"
+    name: "VS-Code",
+    imgUrl:
+      "https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg",
   },
   {
-    name:"Git",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Git.svg"
+    name: "Git",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Git.svg",
   },
   {
-    name:"GitHub",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/GitHub.svg"
+    name: "GitHub",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/GitHub.svg",
   },
   {
-    name:"Postman",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Postman.svg"
+    name: "Postman",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Postman.svg",
   },
   {
-    name:"Swagger",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Swagger.svg"
+    name: "Swagger",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Swagger.svg",
   },
   {
-    name:"Redux",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Redux.svg"
+    name: "Redux",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Redux.svg",
   },
   {
-    name:"Jest",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Jest.svg"
-  }
-]
+    name: "Jest",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Jest.svg",
+  },
+];
 
 export const cloudAndDeployment = [
   {
-    name:"AWS",
-    imgUrl:"https://icon.icepanel.io/Technology/svg/AWS.svg"
+    name: "AWS",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/AWS.svg",
   },
   {
-    name:'Google',
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Google-Cloud.svg"
+    name: "Google",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Google-Cloud.svg",
   },
   {
-    name:'Firebase',
-    imgUrl:"https://icon.icepanel.io/Technology/svg/Firebase.svg"
-  }
-]
+    name: "Firebase",
+    imgUrl: "https://icon.icepanel.io/Technology/svg/Firebase.svg",
+  },
+];
+
+export const projects = [
+  {
+    projectImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_rtmt6BOA-AlP00eB3eqX1lrJpuMCB9gz8JeBORQY1voBVXqyrB3tRzoCDwjXbiCYD0&usqp=CAU",
+    projectTitle: "NetflixGPT",
+    projectDescription:
+      "Netflix Clone Using ReactJS and Authentication Using Firebase and fetched the movies data from the TMDB Apis and integrated the openai for the movie suggestions",
+    gitHubUrl: "https://github.com/karthik-dev25/NetflixGPT",
+  },
+  {
+    projectImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_rtmt6BOA-AlP00eB3eqX1lrJpuMCB9gz8JeBORQY1voBVXqyrB3tRzoCDwjXbiCYD0&usqp=CAU",
+    projectTitle: "Youtube Clone",
+    projectDescription:
+      "Created Youtube Clone Using ReactJS and TailwindCSS and Developed the features like Search Suggestion with debouncing and infinite Live chat Scroll using youtube API",
+    gitHubUrl: "https://github.com/karthik-dev25/Youtube-Clone",
+  },
+  {
+    projectImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_rtmt6BOA-AlP00eB3eqX1lrJpuMCB9gz8JeBORQY1voBVXqyrB3tRzoCDwjXbiCYD0&usqp=CAU",
+    projectTitle: "ECommerce",
+    projectDescription: "Project Under Development",
+    gitHubUrl: "https://github.com/karthik-dev25/Ecommerce-UI",
+  },
+  {
+    projectImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_rtmt6BOA-AlP00eB3eqX1lrJpuMCB9gz8JeBORQY1voBVXqyrB3tRzoCDwjXbiCYD0&usqp=CAU",
+    projectTitle: "Myntra Clone",
+    projectDescription: "Created the Myntra Website Clone Using HTML and CSS",
+    gitHubUrl: "https://github.com/karthik-dev25/Myntra-clone",
+  },
+  {
+    projectImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_rtmt6BOA-AlP00eB3eqX1lrJpuMCB9gz8JeBORQY1voBVXqyrB3tRzoCDwjXbiCYD0&usqp=CAU",
+    projectTitle: "Eye Doc",
+    projectDescription:
+      "Created the Eye Doc Mobile App using React Native and NodeJS for the eye Tests",
+    gitHubUrl: "https://github.com/karthik-dev25/Eye_Doc",
+  },
+];

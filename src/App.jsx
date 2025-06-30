@@ -9,7 +9,6 @@ import Header from "./components/header/Header";
 import ProfileContainer from "./pages/home/ProfileContainer";
 import Skills from "./pages/skills/Skills";
 import Projects from "./pages/projects/Projects";
-import Contact from "./pages/contact/Contact";
 
 const App = () => {
   const appRouter = createBrowserRouter([
@@ -28,10 +27,6 @@ const App = () => {
         {
           path:'/projects',
           element:<Projects />
-        },
-        {
-          path:'/contact',
-          element:<Contact />
         }
       ],
       errorElement: <PageNotFound />,
