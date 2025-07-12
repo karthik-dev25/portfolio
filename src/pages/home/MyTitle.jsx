@@ -40,7 +40,7 @@ const MyTitle = () => {
             </a>
           </li>
           <li>
-            <button className="flex items-center text-lg font-bold bg-blue-950 text-white p-2 rounded-lg hover:bg-gradient-to-b from-blue-600">
+            <button className="flex items-center cursor-pointer text-lg font-bold bg-blue-950 text-white p-2 rounded-lg hover:bg-gradient-to-b from-blue-600">
               
               <span>
                 <FaDownload />
